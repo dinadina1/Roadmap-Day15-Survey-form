@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #ebeae8;
+    color: #4a4a49;
+}
+#name-label,#email-label,#gender-label,#number-label,#checkbox-label{
+    font-weight: bold;
+}
+h1{
+    font-size: 2rem;
+}
+[type="radio"]{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+[type="checkbox"]{
+    margin-right: 5px;
+}
+span{
+    font-style: italic;
+}
+.container-fluid{
+    padding-top: 40px;
+}
+.btn{
+    width:100%
+}
+table,td,th,tr{
+    border: 1px solid #4a4a49;
+    border-collapse: collapse;
+}
+input,textarea{
+    margin-bottom: 10px;
+}
